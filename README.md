@@ -27,4 +27,4 @@ This time I will be submitted the homework for its due date, nevertheless i will
 
 This homework is  published at 
 Repository URL https://github.com/Prsoto/HomeWork2
-Public URL  https://github.com/Prsoto/HomeWork2
+Public URL  https://prsoto.github.io/HomeWork2/
