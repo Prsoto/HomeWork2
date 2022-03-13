@@ -1,0 +1,214 @@
+/* color scheme  */
+:root {
+    
+    --gin: #e0eae4;
+    --heliotrope: rgb(81, 23, 241);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.main-header {
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 60px;
+  background: #13293d;
+  color: #fff;
+}
+
+nav{
+    display: flex; 
+    color:white
+ }
+ /* This Section is to give Sytle to Header */
+ .header1 h1 {
+     display: inline-block ;
+     font-size: 50px;
+ }
+ .header1 {
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: #012022;
+     color: #ffffff;
+ }
+ .header1 div {
+     padding-top: 30px;
+     font-size: 30px;
+     margin-right: 20px;
+     float: right;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+ }
+ .header1 div ul {
+     list-style-type: none; 
+     color: white;
+ }
+ .header1 div ul li {
+     display: inline-block;
+     margin-left: 25px;
+     color:white;
+     text-decoration: underline currentColor ;
+     text-underline-offset: 0.5em;
+ }
+ /* This class gives the style and the source of the Main image display */
+ .imagen{
+     margin: 0;
+     padding: 0px;
+     height: 400px;
+     width: 100%;
+     margin-bottom: 5px;
+     background-image: url("../Assets/Images/portfolio.jpg");
+     background-size:cover;
+     background-position: center;
+ }
+/* Gives Style to the first Section about me */
+
+.vl {
+    border-left: 4px solid white;
+    height: 160px;
+    position: static;
+    left: 40%;
+    margin-left: 160px;
+    top: 10;
+  }
+.about { width: 100%;
+    display: inline-block;
+    margin-left: 0px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.About-me {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0073bb33;
+    color: #1a18189c;}
+.About-me img {
+    max-height: 150px;
+}
+.About-me h1 {
+ padding 5px;
+ font-size: 32px;
+}
+
+
+.card {
+  flex: 1 0 0;
+  padding: 5px;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293da1;
+  color: #fff;
+  border-color:blue ;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  min-width: 300px;
+  min-height: 40px;
+}
+
+.Work {
+ padding 5px;
+ font-size: 16px;
+ color:#13293d;
+ margin-left: 20px;
+ 
+}
+/* Footer Style */
+
+.footer1 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0073bb33;
+    display: inline-block;
+    width: 100%;
+    color: #1a18189c;;
+}
+
+.footer1 h1 {
+    display: inline-block ;
+    font-size: 32px;
+    margin-left: 10px;
+}
+/*
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;  
+*/
+
+.footer1 div ul {
+    list-style-type: none;
+    float: right; 
+}
+.footer1 div ul li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: large;
+    text-decoration: underline currentColor ;
+    text-underline-offset: 0.5em;
+}
+
+
+
+/* set an outer and inner drop shadow on the card to create a glowing effect on hover */
+.card:hover,
+.card:hover .header {
+  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+}
+ /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
+ .card .header {
+    flex-grow: 7;
+  }
+/* Responsive with Media Screen */
+
+
+@media  screen and (max-width:768px) {
+    .header1 {background-color: #3674e7;}
+
+}
+
+@media  screen and (max-width:768px) {
+    .footer1 {background-color: rgb(20, 228, 158);}
+}
+@media  screen and (max-width:560px) {
+    .header1 {flex-direction:column ;}
+}
