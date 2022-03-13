@@ -74,7 +74,7 @@ nav{
      height: 400px;
      width: 100%;
      margin-bottom: 5px;
-     background-image: url("../Assets/Images/portfolio.jpg");
+     background-image: url(../Images/portfolio.jpg);
      background-size:cover;
      background-position: center;
  }
@@ -160,17 +160,7 @@ nav{
     font-size: 32px;
     margin-left: 10px;
 }
-/*
-.footer1 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', sans-serif;
-    font-size: 20px;  
-*/
+
 
 .footer1 div ul {
     list-style-type: none;
