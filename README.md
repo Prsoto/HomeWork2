@@ -25,4 +25,5 @@ This time I will be submitted the homework for its due date, nevertheless i will
 
 ## URL Required
 
-This homework is  published at https://prsoto.github.io/homework-weekly-delivery/
+This homework is  published at 
+Repository URL https://github.com/Prsoto/HomeWork2
